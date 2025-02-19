@@ -6,6 +6,8 @@ Adding a PDF to persistent data and running PDF-specific queries on a Local LLM 
 ### 1. Clone the Repository
 
 git clone https://github.com/v1v3kchandra/RAG_book.git
+
+then 
 cd RAG_book
 
 ### 2. Create a Virtual Environment and Install Dependencies
@@ -20,10 +22,10 @@ pip install -r requirements.txt
 ### 1. Prepare the dataset
 Place your PDFs in the data/ directory. The script will automatically read and index them.
 
-### 2. 2: Run the Main Script (llamaIndex.py)
+### 2. Run the Main Script (llamaIndex.py)
 python llamaIndex.py
 
-### 3: Example Query and reponse will be from the data uploaded
+### 3. Example Query and reponse will be from the data uploaded
 response = query_engine.query("What is Italian seasoning?")
 
 response will be based on the 
